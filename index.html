@@ -1,0 +1,40 @@
+<body>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+<div class="header">
+  <h1 id="title"> Jesus Survey Form
+  </h1>
+  <p id="description">This is going to be a funny survey.</p>
+</div>
+
+<div id="box">
+  <form id="survey-form">
+    <label id="name-label"> Name: </label><br><input type="text" name="name" id="name" size="80" placeholder="Enter your name"required><br>
+    <label id="email-label"> Email</label><br>
+<input type="email" name="email" size="80" 
+       id="email" placeholder="Email"
+       required><br>
+   <label id="number-label"> Age</label><br>
+    <input type="number" min="10" max="99" name="age" 
+         id="number" placeholder="Age" required><br> 
+    <select id="dropdown"><br>
+      <option value="volvo" name="volvo" >Volvo </option>
+			<option value="audi" name="audi">Audi</option>
+		</select><br>
+    
+    Would you recommend to learn to code?:<br>
+		<input type="radio" name="code" value="yes"> Yes <br>
+		<input type="radio" name="code" value="no"> No <br>
+		<input type="radio" name="code" value="maybe"> Maybe <br>
+    Select your favorite Pet between this two!<br>
+		<input type="checkbox" name="cat" value="cats">Cats<br>
+		<input type="checkbox" name="dog" value="dogs">Dogs<br>
+    <label>Additional Comments :</label><br>
+    <textarea id="additional-comments" 
+ placeholder="add some additional comments you may have">
+    </textarea><br>
+    <button id="submit">Submit</button>
+     </div>
+  </form>
+  
+</body>
